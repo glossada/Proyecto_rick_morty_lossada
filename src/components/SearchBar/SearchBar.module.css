@@ -1,0 +1,26 @@
+.container{
+    align-items: center;
+    padding: 70px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.Bar{
+    background-color: rgba(240, 248, 255, 0.452);
+    border: 0px;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+}
+
+.button{
+    color: rgb(73, 0, 0);
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: rgba(240, 248, 255, 0.623);
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
