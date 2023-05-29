@@ -3,7 +3,7 @@ export const REMOVE_FAV = 'REMOVE_FAV';
 
 export const addFav = (char) => {
     
-    return ({type:ADD_FAV, payload:{...char, char: char}})
+    return ({type:ADD_FAV, payload:char})
 
 };
 
