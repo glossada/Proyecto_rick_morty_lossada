@@ -1,0 +1,16 @@
+.container{
+    height: 650px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 560px;
+    border-radius: 20px;
+    background-color: rgb(240, 248, 255,0.5);;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+.img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
