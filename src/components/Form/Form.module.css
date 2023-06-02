@@ -1,0 +1,18 @@
+.container{
+  width: 40%;
+  max-width:100%; /* Ajusta el ancho máximo según tus necesidades */
+  display: flex;
+  height: 300px;
+  margin-top: 250px;
+  margin-left: 550px;
+  flex-direction: column;
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
+  border: 2px solid black;
+  background-color: rgb(240, 248, 255,0.5);
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(73, 0, 0);
+}

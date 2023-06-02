@@ -1,0 +1,32 @@
+.container{
+    background-image: url('../../assets/img/Wanted-background.jpg');
+    height: 580px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.img{
+    border: 2px solid black;
+    border-radius: 150px;
+    width: 295;
+    height: 295px;
+    
+
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(73, 0, 0);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.info{
+    font-family: 'Courier New', Courier, monospace;
+
+}

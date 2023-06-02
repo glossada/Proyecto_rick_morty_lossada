@@ -35,6 +35,13 @@ export default function Card(props) {
       <button className={style.button} onClick={() => props.onClose(props.id)}>
         [ X ]
       </button>
+      {
+   isFav ? (
+      <button className={style.cora} onClick={handleFavorite}>❤️</button>
+   ) : (
+      <button className={style.cora} onClick={handleFavorite}>🤍</button>
+   )
+}
       <div className={style.nombre}>
         <Link to={`/detail/${props.id}`}>
           <h2>{props.name}</h2>
@@ -51,13 +58,7 @@ export default function Card(props) {
         </div>
         <div className={style.status}>
           <h2>Wanted: {props.status}</h2>
-          {
-   isFav ? (
-      <button onClick={handleFavorite}>❤️</button>
-   ) : (
-      <button onClick={handleFavorite}>🤍</button>
-   )
-}
+          
         </div>
       </div>
     </div>

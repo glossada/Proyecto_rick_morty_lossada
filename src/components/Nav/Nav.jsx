@@ -11,9 +11,11 @@ export default function Nav(props){
 
     return(
         <div className={style.container}>
+            <div className={style.links}>
         <Link to="/about">About</Link>
         <Link to="/home">Home</Link>
         <Link to="/favorites">Favorites</Link>
+            </div>
          <h1 className={style.titulo}>WANTED</h1>
          <SearchBar onSearch={props.onSearch} />
       </div>

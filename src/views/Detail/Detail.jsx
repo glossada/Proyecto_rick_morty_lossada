@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 import axios from "axios";
+import style from "./Detail.module.css";
 
 function Detail() {
   const { id } = useParams();
@@ -23,13 +24,13 @@ function Detail() {
 
   if (character) {
     return (
-      <div>
-        <h1>{character.name}</h1>
-        <h3>wanted: {character?.status}</h3>
-        <h3>Species: {character?.species}</h3>
-        <h3>Gender: {character?.gender}</h3>
-        <h3>Origin: {character.origin?.name}</h3>
-        <img src={character.image} alt="" />
+      <div className={style.container}>
+        <h1 className={style.name}>{character.name}</h1>
+        <h3 className={style.info}>wanted: {character?.status}</h3>
+        <h3 className={style.info}>Species: {character?.species}</h3>
+        <h3 className={style.info}>Gender: {character?.gender}</h3>
+        <h3 className={style.info}>Origin: {character.origin?.name}</h3>
+        <img className={style.img} src={character.image} alt="" />
       </div>
     );
   } else {
