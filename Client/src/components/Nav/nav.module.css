@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Nashvile';
+    src: url('../../utils/fonts/Nashville-z8w0.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Serial';
+    src: url('../../utils/fonts/Serialpublicationdemo-qxo1.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'texaswood';
+    src: url('../../utils/fonts/texaswood.ttf') format('truetype');
+  }
 
 .container{
     box-sizing: border-box;
@@ -13,19 +27,32 @@
 }
 
 .titulo{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(73, 0, 0);
+    font-family: 'texaswood', Courier, monospace;
+    letter-spacing: 3px;
+    color: rgb(80, 13, 13);
     font-size: 70px;
     padding-left: 60px;
 }
 
 .links{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(73, 0, 0);
+    font-family: 'Nashvile', Courier, monospace;
+    letter-spacing: 3px;
+    color: rgb(80, 13, 13);
     display: flex;
     gap: 20px;
     margin-left: 25px;
     margin-top: 80px;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.link{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: inherit;
 }

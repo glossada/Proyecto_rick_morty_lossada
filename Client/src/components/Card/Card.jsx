@@ -29,6 +29,7 @@ export default function Card(props) {
       dispatch(addFav(props));
     }
   }
+  const status=props.status.toUpperCase();
 
   return (
     <div className={style.card}>
@@ -37,13 +38,13 @@ export default function Card(props) {
       </button>
       {
    isFav ? (
-      <button className={style.cora} onClick={handleFavorite}>❤️</button>
+      <button className={style.cora} onClick={handleFavorite}>&#9733;</button>
    ) : (
-      <button className={style.cora} onClick={handleFavorite}>🤍</button>
+      <button className={style.cora} onClick={handleFavorite}>&#9734;</button>
    )
 }
       <div className={style.nombre}>
-        <Link to={`/detail/${props.id}`}>
+        <Link to={`/detail/${props.id}`} className={style.link}>
           <h2>{props.name}</h2>
         </Link>
       </div>
@@ -57,7 +58,7 @@ export default function Card(props) {
           <h2>{props.gender}</h2>
         </div>
         <div className={style.status}>
-          <h2>Wanted: {props.status}</h2>
+          <h2>wanted: {status}</h2>
           
         </div>
       </div>

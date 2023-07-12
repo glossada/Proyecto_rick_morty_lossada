@@ -1,4 +1,17 @@
+@font-face {
+    font-family: 'Nashvile';
+    src: url('../../utils/fonts/Nashville-z8w0.ttf') format('truetype');
+  }
 
+  @font-face {
+    font-family: 'Serial';
+    src: url('../../utils/fonts/Serialpublicationdemo-qxo1.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'texaswood';
+    src: url('../../utils/fonts/texaswood.ttf') format('truetype');
+  }
 
 .card{
     background-image: url('../../assets/img/wanted.png');
@@ -21,16 +34,24 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-decoration: none !important;
+    color: inherit;
     font-size: 20px;
     font-weight: bolder;
     width: 100%;
     color: rgb(73, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Nashvile', Courier, monospace;
+    letter-spacing: 3px;
     position: relative;
     top: 30px;
     left: 10px;
     
     
+}
+.nombre,
+.nombre:visited {
+  text-decoration: none !important;
+  color: inherit;
 }
 
 .specs{
@@ -43,7 +64,7 @@
     align-items: center;
     max-width: 100%;
     color: rgb(0, 0, 0);
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Nashvile', Courier, monospace;
     position: absolute;
     top: 370px;
     left: 120px;
@@ -64,8 +85,8 @@
 .cora{
     position: absolute;
     right: 15px;
-    top: 0px;
-    font-size: xx-large;
+    top:0px;
+    font-size: 40px;
     background-color: rgba(0, 0, 0, 0);
     border: none;
 }
@@ -85,7 +106,7 @@
 }
 
 .status{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'texaswood', Courier, monospace;
     color: rgb(73, 0, 0);
     font-weight: 900;
     align-items: center;
@@ -107,4 +128,15 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.link{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: inherit;
 }
