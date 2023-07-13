@@ -4,8 +4,8 @@
   }
 
   @font-face {
-    font-family: 'Serial';
-    src: url('../../utils/fonts/Serialpublicationdemo-qxo1.ttf') format('truetype');
+    font-family: 'Dkwildbunch';
+    src: url('../../utils/fonts/Gambler-51Kj.ttf') format('truetype');
   }
 
   @font-face {
@@ -56,10 +56,13 @@
 }
 
 .info{
-    font-family: 'Courier', Courier, monospace;
+    font-family: 'Dkwildbunch', Courier, monospace;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 21%;
+    width: 300px;
+    letter-spacing: 3px;
+    font-size: 18px;
 
 }

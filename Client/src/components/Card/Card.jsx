@@ -51,11 +51,10 @@ export default function Card(props) {
       <img className={style.img} src={props.image} alt="" />
       <div className={style.inferior}>
         <div className={style.origin}>
-          <h2>{props.origin}</h2>
+          
         </div>
         <div className={style.specs}>
-          <h2>{props.species}</h2>
-          <h2>{props.gender}</h2>
+          
         </div>
         <div className={style.status}>
           <h2>wanted: {status}</h2>
