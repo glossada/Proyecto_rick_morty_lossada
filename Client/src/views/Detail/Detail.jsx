@@ -25,11 +25,15 @@ function Detail() {
   if (character) {
     return (
       <div className={style.container}>
-        <h1 className={style.name}>{character.name}</h1>
-        <h3 className={style.info}>wanted: {character?.status}</h3>
-        <h3 className={style.info}>Species: {character?.species}</h3>
-        <h3 className={style.info}>Gender: {character?.gender}</h3>
-        <h3 className={style.info}>Origin: {character.origin?.name}</h3>
+        <div className={style.name}>
+        <h1 >{character.name}</h1>
+        </div>
+        <div className={style.info}>
+        <h3 >wanted: {character?.status}</h3>
+        <h3 >Species: {character?.species}</h3>
+        <h3 >Gender: {character?.gender}</h3>
+        <h3 >Origin: {character.origin?.name}</h3>
+        </div>
         <img className={style.img} src={character.image} alt="" />
       </div>
     );

@@ -1,32 +1,65 @@
+@font-face {
+    font-family: 'Nashvile';
+    src: url('../../utils/fonts/Nashville-z8w0.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Serial';
+    src: url('../../utils/fonts/Serialpublicationdemo-qxo1.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'texaswood';
+    src: url('../../utils/fonts/texaswood.ttf') format('truetype');
+  }
+
 .container{
-    background-image: url('../../assets/img/Wanted-background.jpg');
-    height: 580px;
-    width: 400px;
-    margin-top: 10px;
+    background-image: url('../../assets/img/ctp4329_wanted_poster-removebg.png');
+    height: 600px;
+    width: 450px;
+    margin-top: 0px;
     margin-left: 750px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
-    border: 2px solid black;
+    position: relative;
+
+    
 }
 
 .img{
-    border: 2px solid black;
+    border: 2px solid rgba(73, 0, 0);
     border-radius: 150px;
-    width: 295;
-    height: 295px;
-    
-
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 56%;
 }
 
 .name{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Nashvile', Courier, monospace;
     color: rgb(73, 0, 0);
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+   
+    
 }
 
 .info{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier', Courier, monospace;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 21%;
 
 }
